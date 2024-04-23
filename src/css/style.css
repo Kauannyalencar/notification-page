@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --white: #fff;
+    --red: #f65351;
+    --blue: #0a317b;
+    --very-light-gray: #f7fafd;
+    --light-blue: #d3e3ee;
+    --dark-gray: #6a7280;
+    --dark-blue: #1c202b;
+    --other-color: #939dae;
+}
+
+@font-face {
+    font-family: "Plus Jakarta";
+    src: url(../font/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+
+body {
+    font-family: "Plus Jakarta";
+    background-color: var(--very-light-gray);
+    height: 100vh;
+    width: 100%;
+}
+
+main {
+    width: 800px;
+    background-color: var(--white);
+    position: relative;
+    top: 10%;
+    bottom: 5%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.header h1 {
+    display: flex;
+    align-items: center;
+}
+
+.header .notificationsNumber {
+    margin-left: 15px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.header #read {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: var(--other-color);
+    transition: .2s ease-in-out;
+}
+
+.header #read:hover {
+    color: var(--blue);
+}
+
+.notifications {
+    margin: 10px;
+}
+
+.notificationItem img {
+    width: 65px;
+    height: 65px;
+}
+
+.notificationItem {
+    display: flex;
+    gap: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    color: var(--other-color);
+    line-height: 25px;
+}
+
+.notificationItem .commentedImg {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.notificationItem .notiFrom {
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.notificationItem.unread {
+    background-color: var(--very-light-gray);
+}
+
+.notificationItem .ativo {
+    color: var(--dark-gray);
+    font-weight: 900;
+}
+
+.notificationItem .unreadMessage {
+    display: inline-block;
+    background-color: var(--red);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.notificationItem .club {
+    color: var(--blue);
+    font-weight: 900;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.notificationItem .infor > span:hover{
+    color: var(--blue);
+    cursor: pointer;
+}
+.notificationItem .infor .menssage{
+    border: 1px solid var(--light-blue); 
+    padding: 15px;
+    border-radius: 5px;
+    color: var(--dark-gray);
+    font-weight: 700;
+    margin: 8px;
+}
+
+.notificationItem  .infor .menssage:hover {
+    background-color: var(--light-blue);
+}

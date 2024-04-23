@@ -1,0 +1,43 @@
+@media screen and (max-width:830px) {
+    body,html{
+        height: max-content;
+        width: 100%;
+    }
+
+    main{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+   .header h1{
+    font-size: 1.5rem;
+   }
+
+   .header .notificationsNumber{
+    margin-left: 10px;
+    font-size: 16px;
+    padding: 5px 12px;
+   }
+
+}
+
+@media screen and (max-width:470px) {
+
+    .header h1{
+        font-size: 1.2rem;
+    }
+    .header .notificationsNumber{
+        font-size: 10px;
+        border-radius: 25px;
+    }
+
+
+    .header #read{
+        font-size: 15px;
+    }
+
+    .notifications .infor{ 
+        font-size: 14px;
+    }
+}
