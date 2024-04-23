@@ -23,7 +23,7 @@ Making responsive is staring to be more easy and fluid.
 - Flexbox
 - DOM JS
 
-<a href="https://kauannyalencar.github.io/notification-page/>Deploy</a>
+<a href="https://kauannyalencar.github.io/notification-page/">Deploy</a>
 ## Author
 - Frontend Mentor - [@KauannyAlencar](https://www.frontendmentor.io/profile/Kauannyalencar)
 - Instagram - [@kauanny_alencar](https://www.instagram.com/kauanny_alencar/)
